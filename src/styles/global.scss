@@ -17,3 +17,18 @@ body, input, button, textarea {
 button, a {
   cursor: pointer;
 }
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  background: rgba(#000000, .75);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

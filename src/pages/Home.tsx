@@ -37,6 +37,11 @@ export const Home: React.FC = () => {
       return;
     }
 
+    if (!!roomRef.val().endedAd) {
+      alert('Room has already been closed');
+      return;
+    }
+
     history.push(`/rooms/${roomCode}`);
   }
 
